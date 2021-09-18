@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand ms-5" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+
+
+
+        <ul class="nav d-flex justify-content-end">
+            <li class="nav-item">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Create a
+                    new post</button>
+            </li>
+
+
+
+
+
+
+            <li class="nav-item dropleft">
+                <a class="nav-link dropdown-toggle text-secondary me-5" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Account</a></li>
+                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+            </li>
+
+
+
+
+
+        </ul>
+
+
+
+    </nav>
+
+
+
+
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <textarea name="texto" id="" cols="63" rows="5"></textarea><br>
+                    <span><i class="fas fa-camera-retro"></i></span>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success">Publicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid tab-pane">
+        <ul class="nav nav-pills justify-content-center mt-2" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" data-toggle="pill" href="#menu1" aria-hidden="true" role="tab"><i
+                        class="fa fa-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" data-toggle="pill" href="#menu2" aria-hidden="true" role="tab"><i
+                        class="fa fa-th" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="tab-content">
+
+
+        <!-- Menú 1-->
+        <div class="container-fluid  tab-pane fade show active " id="menu1" role="tabpanel">
+
+            <!-- Entrada 1-->
+            <div class="row mt-3 mb-5 d-flex justify-content-center">
+                <div class="w-50">
+
+
+                    <div class="card w-100">
+
+
+                        <div class="row m-1">
+                            <div class="col-6 float-left">
+                                <h4>First post</h2>
+                            </div>
+                            <div class="col-6 float-right">
+                                <h4 class="text-right">12/14</h4>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="w-100"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/NZ_Landscape_from_the_van.jpg/1200px-NZ_Landscape_from_the_van.jpg"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ml-2">
+                                <p> <strong>1000 likes</strong>
+                                </p>
+                                <p>Paisaje</p>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <img class="w-100"
+                                    src="https://i.pinimg.com/originals/30/74/99/30749951425cb6165b23f5fbf76ae75b.jpg"
+                                    alt="">
+
+                            </div>
+                            <div class="col-10 pt-2">
+                                <p>Comment...</p>
+
+                            </div>
+                            <div class="col-1 pt-2">
+                                <i class="fas fa-ellipsis-v"></i>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Entrada 2-->
+            <div class="row mt-3 mb-5 d-flex justify-content-center">
+                <div class="w-50">
+
+
+                    <div class="card w-100">
+
+
+                        <div class="row m-1">
+                            <div class="col-6 float-left">
+                                <h4>Second post</h2>
+                            </div>
+                            <div class="col-6 float-right">
+                                <h4 class="text-right">12/16</h4>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="w-100"
+                                    src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ml-2">
+                                <p> <strong>682 likes</strong>
+                                </p>
+                                <p>Beautiful landscape</p>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <img class="w-100"
+                                    src="https://i.pinimg.com/originals/30/74/99/30749951425cb6165b23f5fbf76ae75b.jpg"
+                                    alt="">
+
+                            </div>
+                            <div class="col-10 pt-2">
+                                <p>Comment...</p>
+
+                            </div>
+                            <div class="col-1 pt-2">
+                                <i class="fas fa-ellipsis-v"></i>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Entrada 3-->
+            <div class="row mt-3 mb-5 d-flex justify-content-center">
+                <div class="w-50">
+
+
+                    <div class="card w-100">
+
+
+                        <div class="row m-1">
+                            <div class="col-6 float-left">
+                                <h4>Third post</h2>
+                            </div>
+                            <div class="col-6 float-right">
+                                <h4 class="text-right">12/18</h4>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="w-100"
+                                    src="https://www.petmd.com/sites/default/files/styles/article_image/public/burns-scalds-dogs.jpg?itok=5kARtT9C"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ml-2">
+                                <p> <strong>789 likes</strong>
+                                </p>
+                                <p>Doggie</p>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <img class="w-100"
+                                    src="https://i.pinimg.com/originals/30/74/99/30749951425cb6165b23f5fbf76ae75b.jpg"
+                                    alt="">
+
+                            </div>
+                            <div class="col-10 pt-2">
+                                <p>Comment...</p>
+
+                            </div>
+                            <div class="col-1 pt-2">
+                                <i class="fas fa-ellipsis-v"></i>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Entrada 4-->
+            <div class="row mt-3 mb-5 d-flex justify-content-center">
+                <div class="w-50">
+
+
+                    <div class="card w-100">
+
+
+                        <div class="row m-1">
+                            <div class="col-6 float-left">
+                                <h4>Gif post</h2>
+                            </div>
+                            <div class="col-6 float-right">
+                                <h4 class="text-right">12/21</h4>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="w-100" src="https://c.tenor.com/T7nuzVvauyIAAAAC/among-us-walking.gif"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ml-2">
+                                <p> <strong>921 likes</strong>
+                                </p>
+                                <p>Among us</p>
+
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <img class="w-100"
+                                    src="https://i.pinimg.com/originals/30/74/99/30749951425cb6165b23f5fbf76ae75b.jpg"
+                                    alt="">
+
+                            </div>
+                            <div class="col-10 pt-2">
+                                <p>Comment...</p>
+
+                            </div>
+                            <div class="col-1 pt-2">
+                                <i class="fas fa-ellipsis-v"></i>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- Menú 2-->
+        <div class="container-fluid  tab-pane fade  m-1" id="menu2" role="tabpanel">
+
+            <!-- Fila -->
+            <div class="row">
+
+                <!-- Entrada 1 -->
+
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid w-100"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/NZ_Landscape_from_the_van.jpg/1200px-NZ_Landscape_from_the_van.jpg"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- Entrada 2 -->
+
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid"
+                                    src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- Entrada 3 -->
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid"
+                                    src="https://www.petmd.com/sites/default/files/styles/article_image/public/burns-scalds-dogs.jpg?itok=5kARtT9C"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <!--Fila-->
+
+            <div class="row">
+
+                <!-- Entrada 1 -->
+
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid" src="https://c.tenor.com/T7nuzVvauyIAAAAC/among-us-walking.gif"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- Entrada 2 -->
+
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid"
+                                    src="https://us.123rf.com/450wm/vitalily73/vitalily732103/vitalily73210300551/165939380-.jpg?ver=6"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- Entrada 3 -->
+                <div class="col-md-4 col-sm-6 px-1 my-1">
+                    <div class="card w-100">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid"
+                                    src="https://img.freepik.com/vector-gratis/pelota-baloncesto-aislada_1284-42545.jpg?size=338&ext=jpg&ga=GA1.2.1933447203.1629590400"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
